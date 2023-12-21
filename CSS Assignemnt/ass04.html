@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .login-container {
+        width: 300px;
+        margin: 50px auto;
+        /* border:3px solid green; */
+        padding: 26px;
+        text-align: center;
+        box-shadow: 1px 0.3px 3px 0.2px gray;
+      }
+
+      .login-container input {
+        width: 100%;
+        padding: 12px;
+        box-sizing: border-box;
+        margin-bottom: 14px;
+        border-radius: 6px;
+        border: 1.5px solid lightgray;
+      }
+
+      .btn {
+        background-color: black;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 40px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-weight: 700;
+        border: none;
+      }
+      .main {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+      }
+      .member {
+        display: flex;
+        gap: 2px;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .para {
+        color: gray;
+        word-spacing: 1px;
+      }
+      a {
+        color: gray;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="login-container">
+      <h1>Flodesk</h1>
+      <p>welcome back!</p>
+      <input type="text" placeholder="Enter your email" />
+      <input type="password" placeholder="Enter your password" />
+      <button class="btn">Log in to Flodesk</button>
+      <div class="main">
+        <div class="member">
+          <span class="para">Not a member?</span>
+          <span class="link-para"><a href="">Signup</a></span>
+        </div>
+
+        <div>
+          <a href="" class="link-para">forget you password?</a>
+        </div>
+      </div>
+
+      <div class="policy">
+        <p class="para">
+          By continuing you agree to terms and acknowledge you've read our
+          <span><a href="#">privacy-policy</a></span>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

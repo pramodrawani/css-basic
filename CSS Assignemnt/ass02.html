@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model |css</title>
+    <style>
+        .container{
+            margin:12px auto;
+            width:400px;
+            
+        }
+        .profile-container {
+            width: 340px;
+            
+            padding: 22px 30px;
+            border: 1px solid lightgray;
+
+            border-top-left-radius: 14px;
+            border-top-right-radius: 14px;
+        }
+
+        .profile-container h3 {
+            color: rgb(53, 53, 53);
+        }
+
+        .profile-container p {
+            color: gray;
+        }
+
+        img {
+            width: 30%;
+            border-radius: 50%;
+            height: 30%;
+            margin-left: 20px;
+            padding: 20px;
+        }
+
+        a {
+            color: rgb(76, 75, 75);
+            text-decoration: none;
+
+
+
+
+        }
+
+        .img-flex {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+        }
+
+        #img02 {
+            width: 24%;
+        }
+
+        .link{
+            width:340px;
+            padding:22px 30px;
+            border: 1px solid lightgray;
+            border-bottom-left-radius: 14px;
+            border-bottom-right-radius: 14px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- profiles container -->
+    <div class="container">
+    <div class="profile-container">
+        <h3>Your profiles</h3>
+        <p>See how your different profiles appear in Google services</p>
+        <div class="img-flex">
+            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D"
+                alt="img01">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLenHXpzJQP6D6HimHOz1Ds0YjIO58uO7znftuOiD7fgJC5jhGFEsx&usqp=CAE&s"
+                alt="img02" id="img02">
+        </div>
+
+    </div>
+        <div class="link">
+            <a href="">See profiles</a>
+
+        </div>
+    </div>
+
+   
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+
+/* reset page */
+
+*{ 
+    margin:0;
+    padding:0;
+    box-sizing: border-box; 
+}
+
+
+h3,h4{
+     font-family: Georgia, 'Times New Roman', Times, serif; 
+     font-weight: 500;
+    }
+
+    p{
+        color:gray; 
+        font-size: 10px;
+     }
+
+
+/*  card styling */
+.card{
+    width:420px;
+    border-radius: 14px;
+    padding:10px;
+    border:1px solid lightgray;
+    margin:60px auto;
+
+    & .card-img {
+        width:100%;
+        border-radius: 14px;
+    
+    }
+    & .card-promotion{
+        position: relative;
+         & .discount{
+             position:absolute;
+             bottom:20px;
+             left:0;
+             background-color:dodgerblue;
+             color:white;
+             padding:0 8px;
+             font-size: 13px;
+         }
+         & .period{
+            position:absolute;
+            bottom:20px;
+            right:4px;
+            background-color:white;
+            color:rgb(62, 58, 58);
+            padding:2px 8px;
+            font-size: 13px;
+            border-radius: 5px;
+        }
+        & .promotion{
+            position:absolute;
+            top:-240px;
+            left:12px;
+            background-color:rgb(107, 108, 109);
+            color:rgb(190, 180, 180);
+            padding:0 8px;
+            font-size: 13px;
+        }
+
+
+    }
+
+
+    & .bottom-item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       & .logo{
+            width:45px;
+            height: 13px; 
+            margin-top:5px;
+          }
+          & p{
+            color:gray; 
+            font-size: 11px;
+            margin-right:90px;
+            margin-top:13px;
+          }
+    }
+}
+
+
+ 
+
+
